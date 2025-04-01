@@ -11,7 +11,7 @@ public class ProductMgmtApp {
         var products = List.of(
                 new Product(101, "Banana", LocalDate.of(2025,3,31)),
                 new Product(102, "Apple", LocalDate.of(2025,4,1)),
-                new Product(103, "CArrot", LocalDate.of(2025,4,1))
+                new Product(103, "Carrot", LocalDate.of(2025,4,1))
         );
         System.out.println(products);
     }
